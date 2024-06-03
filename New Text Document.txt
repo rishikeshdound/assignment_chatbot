@@ -1,0 +1,28 @@
+ Problem statement
+The task involves creating a small question-answer bot using Generative AI technology. Here are the requirements:
+ 
+1. Develop a web user interface with three components:
+   1. A dropdown menu for selecting a topic for the question. The available topics are Geography, Health, and Sports.
+   2. A placeholder to display the generated question.
+   3. An input box where users can provide their answers.
+ 
+2. Integrate the system with any LLM such as OpenAI's GPT, Lama2, Bedrock, etc, to perform the following tasks:
+   1. Request the LLM to generate a random question based on the selected topic. Extract the question from the LLM's response and display it on the web interface.
+   2. Request the LLM to verify the user's answer. Obtain the user's input from the input box on the web interface and send both the question and provided answer to the LLM for validation. Based on the LLM's response, indicate to the user whether their answer is correct or not on the web interface.
+
+Model used 
+a16z-infra/llama13b-v2-chat
+
+
+
+for test, experimenting  purpose 
+meta/llama-2-13b-chat
+meta/meta-llama-3-8b 
+
+
+Model Description
+Meta developed and released the Meta Llama 3 family of large language models (LLMs), 
+a collection of pretrained and instruction tuned generative text models in 8 and 70B sizes. 
+The Llama 3 instruction tuned models are optimized for dialogue use cases and outperform many of the available open source chat models on common industry benchmarks.
+
+
